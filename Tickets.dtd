@@ -1,0 +1,25 @@
+<!ELEMENT Tickets (Ticket+)>
+<!ELEMENT Ticket (Bezeichnung, Info, Preisstufen)>
+<!ELEMENT Bezeichnung (#PCDATA)>
+<!ELEMENT Info (#PCDATA)>
+<!ELEMENT Preisstufen (SK, S2, S3, S4, S5)>
+<!ELEMENT SK (#PCDATA)>
+<!ELEMENT S2 (#PCDATA)>
+<!ELEMENT S3 (#PCDATA)>
+<!ELEMENT S4 (#PCDATA)>
+<!ELEMENT S5 (#PCDATA)>
+<!ATTLIST SK
+	Preis CDATA #REQUIRED
+>
+<!ATTLIST S2
+	Preis CDATA #REQUIRED
+>
+<!ATTLIST S3
+	Preis CDATA #REQUIRED
+>
+<!ATTLIST S4
+	Preis CDATA #REQUIRED
+>
+<!ATTLIST S5
+	Preis CDATA #REQUIRED
+>

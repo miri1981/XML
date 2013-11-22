@@ -1,0 +1,33 @@
+<!DOCTYPE Tickets SYSTEM "Tickets.dtd">
+<Tickets>
+	<Ticket>
+		<Bezeichnung>
+			Einzelticket
+		</Bezeichnung>
+		<Info>
+			Nur fuer eine Fahrt gueltig. Innerhalb der naechsten 3 Stunden antretbar.
+		</Info>
+		<Preisstufen>
+			<SK Preis="1,50" />
+			<S2 Preis="2,00" />
+			<S3 Preis="3,00" />
+			<S4 Preis="4,00" />
+			<S5 Preis="5,00" />
+		</Preisstufen>
+	</Ticket>
+	<Ticket>
+		<Bezeichnung>
+			Tagesticket
+		</Bezeichnung>
+		<Info>
+			Einen Tag oder Wochenende gueltig. Beliebige Fahrten im gueltigen Bereich
+		</Info>
+		<Preisstufen>
+			<SK Preis="3,50" />
+			<S2 Preis="5,00" />
+			<S3 Preis="7,00" />
+			<S4 Preis="9,00" />
+			<S5 Preis="11,00" />
+		</Preisstufen>
+	</Ticket>
+</Tickets>
